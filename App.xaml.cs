@@ -13,5 +13,6 @@ namespace TestWPF
     /// </summary>
     public partial class App : Application
     {
+        public static int SelectedProductID { get; set; }
     }
 }

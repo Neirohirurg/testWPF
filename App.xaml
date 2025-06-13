@@ -5,18 +5,57 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <!-- Стиль для TextBlock -->
+
         <Style x:Key="TextBlockStyle" TargetType="TextBlock">
-            <Setter Property="FontWeight" Value="Bold"></Setter>
-            <Setter Property="FontSize" Value="14"></Setter>
-            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="5" />
         </Style>
 
-        <!-- Стиль для Border -->
-        <Style x:Key="BorderStyle" TargetType="Border">
+        <!-- Стиль для ItemContainer -->
+
+        <Style x:Key="ItemConteinerStyle" TargetType="ListViewItem">
             <Setter Property="BorderBrush" Value="Black"></Setter>
             <Setter Property="BorderThickness" Value="1"></Setter>
             <Setter Property="Padding" Value="5"></Setter>
             <Setter Property="Margin" Value="5"></Setter>
         </Style>
+
+        <!-- Стиль для Button -->
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="Background" Value="LightBlue"></Setter>
+            <Setter Property="Padding" Value="5"></Setter>
+            <Setter Property="Margin" Value="75, 5, 75, 5"></Setter>
+            <Setter Property="Width" Value="95"></Setter>
+            <Setter Property="Height" Value="45"></Setter>
+        </Style>
+        
+        <!-- Стиль для TextBox -->
+        <Style x:Key="TextBoxStyle" TargetType="TextBox">
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="Height" Value="55" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+
+        <!-- Стиль для ComboBox -->
+        <Style x:Key="ComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Background" Value="White" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="Height" Value="40" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+
     </Application.Resources>
 </Application>
