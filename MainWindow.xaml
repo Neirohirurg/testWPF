@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TestWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MEDICINE" Height="450" Width="800" Icon="/Снимок экрана 2025-05-15 164027.png">
     <Grid>
         
     </Grid>
